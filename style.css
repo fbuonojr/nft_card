@@ -3,12 +3,18 @@ body {
 }
 
 .flex-container {
+    margin: auto;
     border: 20px solid hsl(216, 50%, 16%);
     background-color: hsl(216, 50%, 16%);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: fit-content;
+}
+
+.card{
+    margin: auto;
 }
 
 .attribution {
