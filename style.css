@@ -1,0 +1,16 @@
+.flex-container {
+    margin: 10%;
+    border: 20px solid black;
+    display: inline-flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
