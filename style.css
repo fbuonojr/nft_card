@@ -17,6 +17,7 @@ body {
     width: 300px;
     height: fit-content;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
     transition: 0.3s;
     font-family: Outfit;
 }
@@ -45,7 +46,7 @@ body {
 .pic {
     height: 250px;
     width: 250px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .row {
@@ -63,11 +64,20 @@ body {
 
 .time {
     display: inline;
+    color: hsl(215, 32%, 27%);
 }
 
 .timePic {
     margin-left: 35%;
     display: inline;
+}
+
+.sig{
+    color: hsl(215, 32%, 27%);
+}
+
+.name{
+    color: white;
 }
 
 .attribution {
